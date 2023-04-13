@@ -9,8 +9,6 @@ def task1():
     def track_cal(val):
         pass
 
-
-
     img = cv2.imread('data/not_bad.jpg')
     img = cv2.resize(img, None, fx=0.3, fy=0.3)
     imgOrg = img.copy()
